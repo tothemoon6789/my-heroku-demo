@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import data from './data.json'
 import Item from './item';
 
+
 class Developer extends Component {
     constructor(props) {
         super(props);
@@ -46,6 +47,7 @@ class Developer extends Component {
     }
     // TODO: Phương thức render chính
     render() {
+       
         console.log("RENDER")
         const {belong} = this.state;
         return (
